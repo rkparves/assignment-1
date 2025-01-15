@@ -7,7 +7,7 @@
 /* nav style */
 nav{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     padding: 24px 160px 24px 160px;
 }
@@ -286,6 +286,7 @@ font-weight: 700;
 line-height: 38px;
 letter-spacing: 0%;
 text-align:center;
+ padding-top: 20px;
   }
   .last-p{
     color: rgba(14, 14, 14, 0.7);
@@ -298,11 +299,8 @@ text-align: center;
   }
   .email{
     display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-/* gap: 24; */
-padding: 18px 40px 18px 40px;
+    margin-left: 200px;
+    padding: 18px 40px 18px 40px;
   }
   .Subscribe{
     color: rgb(255, 255, 255);
@@ -311,7 +309,7 @@ padding: 18px 40px 18px 40px;
     width: 139px;
     height: 48px;
     flex-grow: 0;
-   margin-right: 50px;
+   margin-right: 300px;
     
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.1);
@@ -327,7 +325,9 @@ align-items: center;
   .form{
     display: flex;
     justify-content: center;
-    margin:0%;
+    align-items: center;
+    gap: 1px;
+   
   }
   .last{
     color: rgba(14, 14, 14, 0.7);
@@ -337,4 +337,6 @@ font-weight: 400;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 20px;
+padding-bottom: 40px;
   }
